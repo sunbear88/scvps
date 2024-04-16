@@ -11,8 +11,8 @@
 # ShadowsocksR mudbjson Service
 NAME="ShadowsocksR"
 NAME_BIN="server.py"
-FOLDER="/etc/kaizenvpn/ssr-server/"
-BIN="/etc/kaizenvpn/ssr-server/server.py"
+FOLDER="/etc/sunbearvpn/ssr-server/"
+BIN="/etc/sunbearvpn/ssr-server/server.py"
 
 # Color Validate
 IJAU="\033[32m" 
@@ -37,7 +37,7 @@ do_start(){
 		cd ${FOLDER}
 		python_ver="python"
 		ulimit -n 512000
-		nohup "${python_ver}" "$BIN" a >> /etc/kaizenvpn/ShadowsocksR-Server.log 2>&1 &
+		nohup "${python_ver}" "$BIN" a >> /etc/sunbearvpn/ShadowsocksR-Server.log 2>&1 &
 		sleep 2s
 		check_running
 		if [[ $? -eq 0 ]]; then
