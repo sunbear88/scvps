@@ -1,6 +1,6 @@
 [Unit]
 Description=SSLH Server
-Documentation=https://github.com/sunbear88/scvps
+Documentation=https://github.com/rewasu91/scvps
 After=syslog.target network-online.target
 
 [Service]

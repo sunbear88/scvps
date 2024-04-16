@@ -3,7 +3,7 @@
 cat > /lib/systemd/system/sslh.service << END
 [Unit]
 Description=SSLH Server
-Documentation=https://github.com/rewasu91/scvps
+Documentation=https://github.com/sunbear88/scvps
 After=syslog.target network-online.target
 [Service]
 User=root

@@ -1,12 +1,12 @@
 [Unit]
 Description=Vless Auto Kill Service
-Documentation=https://github.com/sunbear88/scvps
+Documentation=https://github.com/rewasu91/scvps
 After=syslog.target network-online.target
 
 [Service]
 User=root
 NoNewPrivileges=true
-ExecStart=/usr/local/sunbearvpn/vless-auto-kill
+ExecStart=/usr/local/kaizenvpn/vless-auto-kill
 
 [Install]
 WantedBy=multi-user.target

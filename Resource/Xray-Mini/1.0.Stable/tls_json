@@ -1,7 +1,7 @@
 {
   "log": {
-    "access": "/etc/sunbearvpn/xray-mini-tls/access.log",
-    "error": "/etc/sunbearvpn/xray-mini-tls/error.log",
+    "access": "/etc/kaizenvpn/xray-mini-tls/access.log",
+    "error": "/etc/kaizenvpn/xray-mini-tls/error.log",
     "loglevel": "warning"
   },
   "inbounds": [

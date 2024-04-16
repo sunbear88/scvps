@@ -1,12 +1,12 @@
 [Unit]
 Description=WebSocket By ePro
-Documentation=https://github.com/sunbear88/scvps
+Documentation=https://github.com/rewasu91/scvps
 After=syslog.target network-online.target
 
 [Service]
 User=root
 NoNewPrivileges=true
-ExecStart=/usr/local/sunbearvpn/ws-epro -f /etc/sunbearvpn/ws-epro.conf
+ExecStart=/usr/local/kaizenvpn/ws-epro -f /etc/kaizenvpn/ws-epro.conf
 Restart=on-failure
 RestartPreventExitStatus=23
 LimitNPROC=10000

@@ -1,6 +1,6 @@
 {
   "log": {
-    "access": "/etc/sunbearvpn/xray-mini-shadowsocks/access.log",
+    "access": "/etc/kaizenvpn/xray-mini-shadowsocks/access.log",
     "error": "/etc/kaizenvpn/xray-mini-shadowsocks/error.log",
     "loglevel": "warning"
   },

@@ -7,4 +7,4 @@ trojanexp
 socksexp
 httpexp
 ssrexp
-echo "$(date) | Berjaya mengaktifkan Auto Expired" > /etc/sunbearvpn/autoexp.log
+echo "$(date) | Berjaya mengaktifkan Auto Expired" > /etc/kaizenvpn/autoexp.log

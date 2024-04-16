@@ -1,6 +1,6 @@
 [Unit]
 Description=OpenVPN Service For ( %i )
-Documentation=https://github.com/sunbear88/scvps https://openvpn.net
+Documentation=https://github.com/rewasu91/scvps https://openvpn.net
 After=network.target nss-lookup.target
 
 [Service]
