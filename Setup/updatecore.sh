@@ -4,7 +4,7 @@ systemctl stop xray-mini@nontls > /dev/null 2>&1
 cd /usr/local/kaizenvpn/xray-mini;
 rm xray-mini;
 
-wget -q -O /usr/local/kaizenvpn/xray-mini "https://raw.githubusercontent.com/rewasu91/scvps/main/Resource/Core/xray-mini";
+wget -q -O /usr/local/kaizenvpn/xray-mini "https://raw.githubusercontent.com/sunbear88/scvps/main/Resource/Core/xray-mini";
 chmod +x /usr/local/kaizenvpn/xray-mini;
 
 systemctl enable xray-mini@tls;
